@@ -22,7 +22,7 @@ var languageStrings = {
             ],
             "SKILL_NAME" : "Armor Facts",
             "GET_FACT_MESSAGE" : "Here's your fact: ",
-            "HELP_MESSAGE" : "You can say tell me a space fact, or, you can say exit... What can I help you with?",
+            "HELP_MESSAGE" : "You can say tell me an armor fact, or, you can say exit... What can I help you with?",
             "HELP_REPROMPT" : "What can I help you with?",
             "STOP_MESSAGE" : "Goodbye!"
         }
@@ -50,19 +50,19 @@ var languageStrings = {
     "en-GB": {
         "translation": {
             "FACTS": [
-                "A year on Mercury is just 88 days long.",
-                "Despite being farther from the Sun, Venus experiences higher temperatures than Mercury.",
-                "Venus rotates anti-clockwise, possibly because of a collision in the past with an asteroid.",
-                "On Mars, the Sun appears about half the size as it does on Earth.",
-                "Earth is the only planet not named after a god.",
-                "Jupiter has the shortest day of all the planets.",
-                "The Milky Way galaxy will collide with the Andromeda Galaxy in about 5 billion years.",
-                "The Sun contains 99.86% of the mass in the Solar System.",
-                "The Sun is an almost perfect sphere.",
-                "A total solar eclipse can happen once every 1 to 2 years. This makes them a rare event.",
-                "Saturn radiates two and a half times more energy into space than it receives from the sun.",
-                "The temperature inside the Sun can reach 15 million degrees Celsius.",
-                "The Moon is moving approximately 3.8 cm away from our planet every year."
+                "The M1A1 Abrams main battle tank weighs 68 tons and can travel at speeds in excess of fifty-five miles per hour.",
+                "The Abrams has a one hundred and twenty milimeter smoothbore cannon.",
+                "The M1A1 Abrams powertrain consists of a Honeywel multi-fuel gas turbine capable of fifteen-hundred shaft horsepower.",
+                "The Bradley Fighting Vehicle is equipped with the m two four two, twenty-five milimeter chain gun as its main weapon.",
+                "The m two Bradley Infantry Fighting Vehicle can accomidate up to six infrantrymen in addition to the crew.",
+                "The m three Bradley Cavalry Fighting Vehicle was designed to accomidate two scouts and additional communications equipment, surveillance gear, and ammunition.",
+                "The m four Sherman medium tank, was the most numerous battle tank used by the United States in world war two.",
+                "By nineteen fourty-four, the m four was inferior to the increasing numbers of German heavy tanks, but was able to continue fighting with mutual support from numerical superiority and with support from growing numbers of fighter-bombers and artillery pieces.",
+                "The m sixty Patton was a main battle tank introduced in December 1960, becoming the Army\'s primary tank during the cold war.",
+                "The m one one three is a fully tracked armored personnel carrier was developed by Food Machinery Corporation and first fielded by Army mechanized infantry units in Vietnam in April nineteen sixty-two.",
+                "The m one one three introduced new aluminum armor that made the vehicle much lighter than earlier vehicles. It was thick enough to protect the crew and passengers against small arms fire, but light enough that the vehicle was air transportable and moderately amphibious.",
+                "The M one nine one seven was America\'s first mass-produced tank, entering production shortly before the end of World War one and a near copy of the French Renault FT. However, u s manufacturers failed to produce any in time to participate in world war i.",
+                "The Interim Armored Vehicle Striker is a family of eight-wheeled, armored fighting vehicles."
             ],
             "SKILL_NAME" : "British Armour Facts"
         }
@@ -110,7 +110,7 @@ var handlers = {
         this.emit("GetFact");
     },
     "GetFact": function () {
-        // Get a random space fact from the space facts list
+        // Get a random armor fact from the armor facts list
         // Use this.t() to get corresponding language data
         var factArr = this.t("FACTS");
         var factIndex = Math.floor(Math.random() * factArr.length);

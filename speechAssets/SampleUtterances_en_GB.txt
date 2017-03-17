@@ -1,13 +1,13 @@
 GetNewFactIntent a fact
-GetNewFactIntent a armour fact
+GetNewFactIntent an armour fact
 GetNewFactIntent tell me a fact
-GetNewFactIntent tell me a armour fact
+GetNewFactIntent tell me an armour fact
 GetNewFactIntent give me a fact
-GetNewFactIntent give me a armour fact
+GetNewFactIntent give me an armour fact
 GetNewFactIntent tell me trivia
-GetNewFactIntent tell me a armour trivia
+GetNewFactIntent tell me an armour trivia
 GetNewFactIntent give me trivia
-GetNewFactIntent give me a armour trivia
+GetNewFactIntent give me an armour trivia
 GetNewFactIntent give me some information
 GetNewFactIntent give me some armour information
 GetNewFactIntent tell me something
